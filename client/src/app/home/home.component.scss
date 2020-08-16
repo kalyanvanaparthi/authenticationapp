@@ -1,0 +1,29 @@
+.mainCard {
+  margin: auto;
+  width: 80%
+}
+
+.image {
+  display: block;
+  margin: auto;
+}
+
+mat-card-content {
+  margin-top: 2%;
+}
+
+button {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.register {
+  margin-top: 1%;
+}
+
+@media(max-width: 400px) {
+  .mainCard {
+    width: 80%;
+  }
+}

@@ -1,0 +1,30 @@
+mat-card {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+mat-form-field {
+  display: block;
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
+
+button {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.bottomTag {
+  display: block;
+  margin-top: 2em;
+}
+
+@media(max-width: 400px) {
+  mat-card {
+    width: 80%;
+  }
+}

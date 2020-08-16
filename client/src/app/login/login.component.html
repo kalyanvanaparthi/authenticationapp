@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title><h1>Log In</h1></mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-form-field>
+      <mat-label>Email Address</mat-label>
+      <input matInput [(ngModel)] = "email">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matInput [(ngModel)] = "password" type="password">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" routerLink="/login" (click)="login()"> Log In </button>
+
+    <p class="bottomTag">Dont have an account <a routerLink= "/register">click here</a></p>
+  </mat-card-content>
+</mat-card>

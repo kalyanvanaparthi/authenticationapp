@@ -1,0 +1,27 @@
+<mat-card>
+  <mat-card-header>
+    <h1>Sign Up Here</h1>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-form-field>
+      <mat-label>User Name</mat-label>
+      <input matInput [(ngModel)]="name">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Email address</mat-label>
+      <input matInput type="email" [(ngModel)]="email">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input matInput type="password" [(ngModel)]="password">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Re-enter Password</mat-label>
+      <input matInput type="password" [(ngModel)]="password2">
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="register()">  Sign Up </button>
+
+    <p class="bottomTag">Already have an account <a routerLink= "/login">click here</a></p>
+  </mat-card-content>
+</mat-card>
