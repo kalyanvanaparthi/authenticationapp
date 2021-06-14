@@ -14,7 +14,7 @@ PORT = process.env.PORT || 3000;
 
 require('./api/config/passport');
 
-mongoose.connect('mongodb://localhost:27017/meanapp2');
+mongoose.connect('mongodb+srv://kalyan:AVWZUR38TyScwCnd@cluster0.nccx0.mongodb.net/test?retryWrites=true&w=majority');
 
 mongoose.connection.on('connected', () => {
     console.log("MongoDB connected successfully...");
